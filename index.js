@@ -1,6 +1,6 @@
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const dotenv = require("dotenv");
-const prompt = require("prompt-sync")({ sigint: true });
+const input = require("prompt-sync")({ sigint: true });
 const fs = require("fs");
 
 dotenv.config();
@@ -13,19 +13,34 @@ dotenv.config();
     5. Write a prompt for generating flashcards
 */
 
-// // Access your API key as an environment variable (see "Set up your API key" above)
-// const genAI = new GoogleGenerativeAI(process.env.API_KEY);
+// Access your API key as an environment variable (see "Set up your API key" above)
+const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 
-// // For text-only input, use the gemini-pro model
-// const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+// Converts local file information to a GoogleGenerativeAI.Part object.
+function fileToGenerativePart(path, mimeType) {
+  return {
+    inlineData: {
+      data: Buffer.from(fs.readFileSync(path)).toString("base64"),
+      mimeType,
+    },
+  };
+}
 
-// async function run() {
-//   const prompt = "Write a story about a magic backpack.";
+async function run() {
+  // For text-and-image input (multimodal), use the gemini-pro-vision model
+  const model = genAI.getGenerativeModel({ model: "gemini-pro-vision" });
 
-//   const result = await model.generateContent(prompt);
-//   const response = await result.response;
-//   const text = response.text();
-//   console.log(text);
-// }
+  const prompt = "What's different between these pictures?";
 
-// run();
+  const imageParts = [
+    fileToGenerativePart("image1.png", "image/png"),
+    fileToGenerativePart("image2.jpeg", "image/jpeg"),
+  ];
+
+  const result = await model.generateContent([prompt, ...imageParts]);
+  const response = await result.response;
+  const text = response.text();
+  console.log(text);
+}
+
+run();
