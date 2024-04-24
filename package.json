@@ -1,0 +1,17 @@
+{
+  "name": "flashcard-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.8.0",
+    "dotenv": "^16.4.5",
+    "prompt-sync": "^4.2.0"
+  }
+}
