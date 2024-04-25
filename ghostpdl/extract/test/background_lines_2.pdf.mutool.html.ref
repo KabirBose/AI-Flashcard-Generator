@@ -1,0 +1,100 @@
+<html>
+<body>
+<div>
+
+
+<p><b>PAGE NO. 1
+</p></b>
+
+<p><b>INPUT SURVEY, 1996-1997 TABLE 5J : ESTIMATED AREA UNDER PADDY  TREATED WITH AZETOBACTOR BY SIZE GROUPS. STATE : ANDHRA PRADESH
+</p></b>
+
+<p><b>DISTRICT : ADILABAD
+</p></b>
+
+<table border="1" style="border-collapse:collapse">
+    <tr>
+        <td colspan="2" rowspan="2"><p><b>Sl.No</p></b></td>
+        <td colspan="2" rowspan="2"><p><b>SIZE GROUP (HA) </p></b></td>
+        <td colspan="2"><p><b>NO. OF HOLDINGS GROWING THE CROP </p></b></td>
+        <td colspan="3"><p><b>AREA UNDER THE CROP</p></b></td>
+        <td colspan="6"><p><b>AREA UNDER THE CROP TREATED WITH THE  MANURE</p></b></td>
+    </tr>
+    <tr>
+        <td><p><b>TOTAL NO.</p></b></td>
+        <td><p><b>NO. TREATED WITH THE  MANURE</p></b></td>
+        <td><p><b>HYV</p></b></td>
+        <td><p><b>OTHERS</p></b></td>
+        <td><p><b>TOTAL</p></b></td>
+        <td colspan="2"><p><b>HYV</p></b></td>
+        <td colspan="2"><p><b>OTHERS</p></b></td>
+        <td colspan="2"><p><b>TOTAL</p></b></td>
+    </tr>
+    <tr>
+        <td colspan="2"><p><b>(1)</p></b></td>
+        <td colspan="2"><p><b>(2)</p></b></td>
+        <td><p><b>(3)</p></b></td>
+        <td><p><b>(4)</p></b></td>
+        <td><p><b>(5)</p></b></td>
+        <td><p><b>(6)</p></b></td>
+        <td><p><b>(7)</p></b></td>
+        <td colspan="2"><p><b>(8)</p></b></td>
+        <td colspan="2"><p><b>(9)</p></b></td>
+        <td colspan="2"><p><b>(10)</p></b></td>
+    </tr>
+    <tr>
+        <td rowspan="3"><p>1</p></td>
+        <td colspan="14" rowspan="3"><p>MARGINAL (BELOW 1.0) <b>I UI T</p><p></b> 15464  3648  19112</p><p> 0  0  0</p><p> 39053  7429  46484</p><p> 12142  2088  14230</p><p> 3322  1560  4882</p><p> 0  0  0</p><p> 0  0  0</p><p> 0  0  0</p></td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td rowspan="3"><p>2</p></td>
+        <td colspan="14" rowspan="3"><p>SMALL (1.0 - 1.99) <b>I UI T</p><p></b> 18316  6479  24795</p><p> 0  0  0</p><p> 20341  6854  27197</p><p> 16685  4594  21279</p><p> 1631  1885  3516</p><p> 0  0  0</p><p> 0  0  0</p><p> 0  0  0</p></td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td rowspan="3"><p>3</p></td>
+        <td colspan="14" rowspan="3"><p>SEMI-MEDIUM (2.0 - 3.99) <b>I UI T</p><p></b> 24634  5836  30470</p><p> 0  0  0</p><p> 20800  5856  26555</p><p> 16991  1017  18008</p><p> 7643  4819  12462</p><p> 0  0  0</p><p> 0  0  0</p><p> 0  0  0</p></td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td rowspan="3"><p>4</p></td>
+        <td colspan="14" rowspan="3"><p>MEDIUM (4.0 - 9.99) <b>I UI T</p><p></b> 21696  7673  29369</p><p> 0  0  0</p><p> 11986  4615  16312</p><p> 17576  1446  19022</p><p> 4120  6227  10347</p><p> 0  0  0</p><p> 0  0  0</p><p> 0  0  0</p></td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td rowspan="3"><p>5</p></td>
+        <td colspan="14" rowspan="3"><p>LARGE (10 AND ABOVE) <b>I UI T</p><p></b> 4310  1442  5752</p><p> 0  0  0</p><p> 2005  521  2485</p><p> 3671  611  4282</p><p> 639  831  1470</p><p> 0  0  0</p><p> 0  0  0</p><p> 0  0  0</p></td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td rowspan="3"><p>6</p></td>
+        <td colspan="14" rowspan="3"><p>ALL GROUPS <b>I UI T</p><p></b> 84420  25078  109498</p><p> 0  0  0</p><p> 94185  25275  119033</p><p> 67065  9756  76821</p><p> 17355  15322  32677</p><p> 0  0  0</p><p> 0  0  0</p><p> 0  0  0</p></td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+</table>
+
+
+
+<p><b>NOTE: I-IRRIGATED           UI-UNIRRIGATED           T = TOTAL OF I &amp; UI IN CASE OF COLUMNS 3 AND 4 
+</p></b></div>
+</body>
+</html>
