@@ -10,6 +10,7 @@ const fs = require("node:fs");
     3. Store text from file
     4. Input that data into Gemini
     5. Write a prompt for generating flashcards
+
     6. Take the Gemini output and put it into a markdown file
 */
 
@@ -27,7 +28,9 @@ let pdfText;
 const randomNum = Math.random() * 100000;
 
 PdfOcr("pdfs/dummy.pdf")
-  .then(() => {
+  .then((text) => {
+    pdfText = text;
+
     async function run() {
       const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
