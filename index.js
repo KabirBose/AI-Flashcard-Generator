@@ -6,7 +6,8 @@ const input = require("prompt-sync")({ sigint: true });
 
 dotenv.config();
 
-const genAI = new GoogleGenerativeAI(process.env.API_KEY);
+const apiKey = input("Enter your Google Gemini API key: ");
+const genAI = new GoogleGenerativeAI(apiKey);
 
 console.log(`
 ███████╗██╗░░░░░░█████╗░░██████╗██╗░░██╗░█████╗░░█████╗░██████╗░██████╗░
