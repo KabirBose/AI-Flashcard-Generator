@@ -8,7 +8,7 @@ There are a couple things you need before using this program.
 
 1. Node.js --> [Download it here!](https://nodejs.org/en/download)
 2. Google Gemini API key --> [Get one here!](https://ai.google.dev/gemini-api/docs/api-key)
-3. GhostScript (You can install it locally or globally) --> [Download it here!](https://ghostscript.com/releases/gpdldnld.html) or [here for Mac](https://discussions.apple.com/thread/8584571?sortBy=best)
+3. GhostScript (You can install it locally or globally) --> [download it here](https://ghostscript.com/releases/gpdldnld.html) or [here for Mac!](https://discussions.apple.com/thread/8584571?sortBy=best)
 4. Optional: Text Editor (I recommend Visual Studio Code) --> [Download it here!](https://code.visualstudio.com/download)
 
 # Usage
