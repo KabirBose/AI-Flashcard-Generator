@@ -28,19 +28,19 @@ by KABIR BOSE
 `);
 
 const filename = input(
-  "Enter the name of the file you want to generate flash cards for (eg. sample.pdf): "
+  "Enter the name of the file you want to generate flash cards for (eg. sample): "
 );
 
-console.log(`Loading ${filename} ...`);
+console.log(`Loading ${filename}.pdf ...`);
 
-PdfOcr(`pdfs/${filename}`)
+PdfOcr(`pdfs/${filename}.pdf`)
   .then((text) => {
     pdfText = text;
 
     async function run() {
       const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
-      const prompt = `${pdfText}\n\nGiven this article: Generate flashcards for me. If it's a long article then generate enough flashcards so that it would cover all of the main, most important points. Keep the flashcards detailed and really focus on getting all the important stuff. Keep the flashcards organized so that users can organize what's on the front and on the back. Format it and make it nice looking by using the markdown language.`;
+      const prompt = `${pdfText}\n\nGiven this article or these slides: Generate flashcards for me. If it's a long article or many slides then generate enough flashcards so that it would cover all of the most important points. Keep the flashcards detailed and really focus on getting all the important stuff. Keep the flashcards organized so that users can organize what's on the front and on the back as well as which card they are on. Format it and make it nice looking by using the markdown language.`;
 
       const result = await model.generateContent(prompt);
       const response = await result.response;
