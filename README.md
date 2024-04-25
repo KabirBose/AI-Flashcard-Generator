@@ -19,6 +19,19 @@ There are a couple things you need before using this program.
 4. Add PDF files that you want to convert into flashcards into the `pdfs` folder
 5. Run the program --> `npm run dev`
 
+# Screenshots
+### Here is an example of the input (a PDF file):
+![Input file](screenshots/input.png)
+
+### The program in process:
+![Commands](screenshots/commands.png)
+
+### The output file (in Markdown language):
+![Ouput file](screenshots/output.png)
+
+### Preview of the output file:
+![Ouput file preview](screenshots/output-2.png)
+
 # Credits
 
 Shoutout to the developers of Tesseract, GhostScript, Google Gemini, and JAGUARAVI (the creator of Node-PDF-OCR) for providing the tools I needed to develop this program.
