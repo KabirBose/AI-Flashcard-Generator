@@ -29,7 +29,7 @@ const filename = input(
   "Enter the name of the file you want to generate flashcards for (eg. sample): "
 );
 const deckname = input(
-  "Enter what you wan't to call your deck of flashcards (eg. cs-final-notes): "
+  "Enter what you want to call your deck of flashcards (eg. Exam Review): "
 );
 
 let pdfText;
