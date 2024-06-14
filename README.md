@@ -1,4 +1,4 @@
-# Flashcard Generator by Kabir Bose
+# AI-Powered Flashcard Generator
 
 A fast, terminal application that leverages Google's Gemini AI to generate flashcards/study notes with ease. It takes a PDF file as input, uses OCR to extract the text out of the PDF file, and uses detailed prompts to generate useful flashcards.
 
@@ -34,4 +34,4 @@ There are a couple things you need before using this program.
 
 # Credits
 
-Shoutout to the developers of Tesseract, GhostScript, Google Gemini, and JAGUARAVI (the creator of Node-PDF-OCR) for providing the tools I needed to develop this program.
+Thank you to the developers of Tesseract, GhostScript, Google Gemini, and Node-PDF-OCR.
