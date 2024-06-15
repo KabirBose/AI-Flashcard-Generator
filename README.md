@@ -20,16 +20,16 @@ There are a couple things you need before using this program.
 5. Run the program --> `npm run dev`
 
 # Screenshots
-### Here is an example of the input (a PDF file):
+Here is an example of the input (a PDF file):
 ![Input file](screenshots/input.png)
 
-### The program in process:
+The program in process:
 ![Commands](screenshots/commands.png)
 
-### The output file (in Markdown language):
+The output file (in Markdown language):
 ![Ouput file](screenshots/output.png)
 
-### Preview of the output file:
+Preview of the output file:
 ![Ouput file preview](screenshots/output-2.png)
 
 # Credits
