@@ -1,4 +1,4 @@
-# AI-Powered Flashcard Generator
+# AI Flashcard Generator
 
 A fast, terminal application that leverages Google's Gemini AI to generate flashcards/study notes with ease. It takes a PDF file as input, uses OCR to extract the text out of the PDF file, and uses detailed prompts to generate useful flashcards.
 
