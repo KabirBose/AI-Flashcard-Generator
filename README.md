@@ -31,7 +31,3 @@ The output file (in Markdown language):
 
 Preview of the output file:
 ![Ouput file preview](screenshots/output-2.png)
-
-# Credits
-
-Thank you to the developers of Tesseract, GhostScript, Google Gemini, and Node-PDF-OCR.
